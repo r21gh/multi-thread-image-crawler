@@ -13,7 +13,7 @@ def main():
     ts = time()
     # TODO
     # replace with env variable
-    client_id = 'a5921180d835431'
+    client_id = ''
     if not client_id:
         raise Exception("Couldn't find IMGUR_CLIENT_ID environment variable!")
     download_dir = setup_download_dir()
